@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { auth, db } from '@/firebase/config';
+import { auth, db } from '../../firebase/config';
 import {
   collection,
   addDoc,
